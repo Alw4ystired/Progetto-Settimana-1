@@ -24,9 +24,6 @@ footer {
 
 }
 
-body {
-    font-family: 'Inter', Arial, sans-serif;
-}
 
 main {
     max-width: 920px;
@@ -39,8 +36,7 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2,
+main h1,
 h3 {
     font-family: 'Playfair Display', Georgia, serif;
 }
@@ -72,7 +68,7 @@ h1 {
     background-image: url('../img/header-bg.jpg');
     background-size: cover;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
-    border: hsl(45, 90%, 60%);
+    border-bottom: 500px hsl(45, 90%, 60%);
 }
 
 .topLinks a {
@@ -107,15 +103,22 @@ h1 {
     margin-right: 10px;
 }
 
-h2::before {
+main h2::before {
     content: '\2756';
+    font-size: 1em;
     color: hsl(45, 90%, 50%)
 }
 
+.mainTitle {
+    font-style: italic;
+    font-size: 1em;
+}
 /*Main*/
 
-h2 {
+main h2 {
     color: hsl(220, 60%, 25%);
+
+
 }
 
 .rectangle1,
@@ -157,7 +160,7 @@ h2 {
 .imageContaineralso p::first-letter {
     font-size: 2em;
     font-weight: bold;
-    font-style: none;
+    
     color: #1F3D7A;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -212,21 +215,20 @@ td {
 }
 
 .rectangleProgetti {
-    border: 1px solid #e6e0d3;
+    border-left: 5px solid #193366;
     border-radius: 20px;
     background-color: rgb(255, 252, 234);
     padding: 15px;
-    margin: 10px;
+    margin: 20px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 .rectangle-progetti-vuoto {
-    border: 1px solid #e6e0d3;
-    box-shadow: 0px 0px 0px 5px;
+    border-left: 5px solid hsl(45, 90%, 50%);
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     padding: 15px;
-    margin: 10px;
+    margin: 20px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
@@ -238,13 +240,14 @@ h3 {
     margin-top: 0;
 }
 
-.link.in.fondo {
+.link-su {
     text-align: right;
     color: hsl(220, 60%, 30%);
     border: hsl(45, 90%, 50%);
+   
 }
 
-.link-in-fondo:hover {
+.link-su:hover {
     color: hsl(220, 60%, 45%);
 }
 
@@ -265,7 +268,7 @@ h3 {
 }
 
 .sendForm:hover {
-   background-color: hsl(220, 60%, 45%);
+    background-color: hsl(220, 60%, 45%);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
 }
 
@@ -278,7 +281,7 @@ h3 {
 }
 
 .erase:hover {
-   background-color: hsl(220, 60%, 45%);
+    background-color: hsl(220, 60%, 45%);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
 }
 
@@ -288,11 +291,15 @@ h3 {
     margin: 3px;
 }
 
-#accept {
-    display:inline-block;
+.accept {
+    display: inline-block;
 }
 
-.name, .email, .reason, .date, .message {
+.name,
+.email,
+.reason,
+.date,
+.message {
     width: 100%;
     border: 1px solid #d6cfbf;
     background-color: #fbf8f1;
@@ -347,4 +354,16 @@ h3 {
     border: 1px solid hsl(220, 60%, 30%);
     background-color: white;
 
+}
+
+.github-link {
+    color: rgba(255, 255, 255, 0.08);
+}
+
+.github-link:hover {
+    color: hsl(220, 60%, 20%);
+}
+
+.link-su {
+    font-size: small;
 }

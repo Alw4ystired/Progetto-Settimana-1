@@ -8,8 +8,12 @@
     <meta name="description" content="Presentazione personale Laina Alessandro" />
     <meta name="keywords" content="front-end, HTML, Epicode, formazione, presentazione" />
     <title>Presentazione Lainà Alessandro</title>
-   
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet" />
+
 
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -19,7 +23,9 @@
     <header>
         <section id="inizio" class="inizio">
             <h1>Alessandro Lainà</h1>
-            <h2 class="mainTitle"><strong>Studente Full Stack</strong> - <i>corso Epicode 2026</i></h2>
+
+            <h2 class="mainTitle"><i>Studente Full Stack - Corso Epicode 2026</i></h2>
+
             <nav class="topLinks">
                 <ul>
                     <li><a href="#chi-sono-section" class="chiSono">
@@ -49,7 +55,9 @@
         <div class="rectangleOver">
             <div class="rectangle1">
                 <div class="chi-sono">
-                    <h2>Chi sono</h2>
+                    <div>
+                        <h2>Chi sono</h2>
+                    </div>
                 </div>
                 <section id="chi-sono-section" class="imageContaineralso">
                     <div class="imageContainer">
@@ -75,7 +83,9 @@
                         per la maggior parte in <span class="fullStack">ristorazione e banchi
                             gastronomia.</span>
                     </p>
-                    <a href="inizio" class="link-in-fondo">Torna in cima</a>
+                    <div class="link-su">
+                        <a href="inizio" class="link-su">Torna in cima</a>
+                    </div>
                 </section>
             </div>
         </div>
@@ -85,7 +95,8 @@
 
             <section class="competenze" id="competenze">
                 <h2>Competenze</h2>
-                <p>Le tecnologie che ho visto durante le prime settimane del corso. Le percentuali sono autovalutazioni, non certificazioni.</p>
+                <p>Le tecnologie che ho visto durante le prime settimane del corso. Le percentuali sono autovalutazioni,
+                    non certificazioni.</p>
                 <p class="stackTecnico">Stack tecnico: autovalutazione</p>
                 <table>
                     <thead>
@@ -147,8 +158,10 @@
                         </tr>
                     </tbody>
                 </table>
-
-                <a href="#inizio" class="link-in-fondo">Torna in cima</a>
+                <br />
+                <div class="link-su">
+                    <a href="#inizio" class="link-su">Torna in cima</a>
+                </div>
             </section>
         </div>
 
@@ -187,14 +200,16 @@
                     <tfoot>
                         <tr>
                             <td colspan="3">
-                               Totale esperienze: 3
+                                Totale esperienze: 3
                             </td>
                         </tr>
                     </tfoot>
                 </table>
 
                 <br />
-                <a href="#inizio" class="link-in-fondo">Torna in cima</a>
+                <div class="link-su">
+                    <a href="#inizio" class="link-su">Torna in cima</a>
+                </div>
             </section>
         </div>
 
@@ -203,17 +218,28 @@
                 <h2>Progetti</h2>
 
                 <p>Questa è la lista dei miei progetti:</p>
-                <div class="rectangleProgetti"><h3>Presentazione Personale <i class="fa-regular fa-newspaper"></i></h3>
-                <p>Presentazione personale in HTML e CSS</p>
-                <a href="#inizio">Torna in cima per leggere di nuovo</a></div>
-
-                <div class="rectangle-progetti-vuoto"><p>Momentaneamente non ho altri progetti da mostrare, ma conto di aggiungerne altri in futuro.</p>
-
-                <a href="https://github.com/Alw4ystired">Vai a scoprire il mio account GitHub!</a></div>
-                <br /><br />
-                <div>
-                    <a href="#inizio" class="link-in-fondo">Torna in cima</a>
+                <div class="rectangleProgetti">
+                    <h3>Presentazione Personale <i class="fa-regular fa-newspaper"></i></h3>
+                    <p>Presentazione personale in HTML e CSS</p>
+                    <a href="#inizio">Torna in cima per leggere di nuovo</a>
                 </div>
+                <div class="rectangle-progetti-vuoto">
+                    <h3>Portfolio personale <i class="fa-solid fa-photo-film"></i></h3>
+                    <p>Presentazione personale in HTML e CSS</p>
+                    <a href="#inizio">Torna in cima per leggere di nuovo</a>
+                                
+                </div>
+                   <div class="rectangleProgetti">
+                        <p>Momentaneamente non ho altri progetti da mostrare, ma conto di aggiungerne altri in futuro.
+                        </p>
+
+                        <a href="https://github.com/Alw4ystired">Vai a scoprire il mio account GitHub!</a>
+                    </div>
+
+                    <br /><br />
+                    <div class="link-su">
+                        <a href="#inizio" class="link-su">Torna in cima</a>
+                    </div>
                 </div>
             </section>
         </div>
@@ -226,52 +252,58 @@
                     <section id="contatti" class="contatti">
                         <h2>Contatti</h2>
                         <form>
-                            <fieldset>
-                                <legend>Contattami per proposte lavorative, risponderò entro 24 ore.
-                                </legend>
-                                <br />
 
-                                <div class="contact-camps">
-                                    <label for="name">Nome</label>
-                                </div>
-                                <input type="text" name="name" id="name" placeholder="Inserisci il tuo nome" class="name" required />
-                                <div class="contact-camps">
-                                    <label for="email">Email</label>
-                                </div>
-                                <input type="email" name="email" id="email" placeholder="Inserisci la tua email"
-                                    class="email" required />
-                                <div class="contact-camps">
-                                    <label for="reason" class="font">Motivo del contatto</label>
-                                </div>
-                                <select id="reason" name="reason" class="reason" required>
-                                    <option value="" selected></option>
-                                    <option value="PL">Proposta lavorativa</option>
-                                    <option value="PC">Proposta di collaborazione</option>
-                                    <option value="CA">Un bel caffè e due chiacchiere</option>
-                                </select>
-                                <div class="contact-camps">
-                                    <label for="date" class="font">Data preferita per la risposta</label>
-                                </div>
-                                <input type="date" name="date" id="date" class="date" />
-                                <div class="contact-camps">
-                                    <label for="message" class="font">Lascia scritto un messaggio se necessario</label>
-                                </div>
-                                <textarea name="message" id="message" placeholder="Scrivi qui il tuo messaggio"
-                                    class="message"></textarea>
-                                <br />
-                                <input type="checkbox" id="accept" name="accept"/>
-                            
-                                <div class="contact-camps">
-                                <label for="accept">Accetto di essere ricontattato all'indirizzo indicato.</label></div>
-                                <br /> <br />
+                            <legend>Contattami per proposte lavorative, risponderò entro 24 ore.
+                            </legend>
+                            <br />
 
-                                <button type="submit" id="sendForm" class="sendForm"><i class="fa-solid fa-upload"></i> Invia</button>
-                                <button type="reset" id="erase" class="erase"><i class="fa-solid fa-delete-left"></i> Cancella</button>
+                            <div class="contact-camps">
+                                <label for="name">Nome</label>
+                            </div>
+                            <input type="text" name="name" id="name" placeholder="Inserisci il tuo nome" class="name"
+                                required />
+                            <div class="contact-camps">
+                                <label for="email">Email</label>
+                            </div>
+                            <input type="email" name="email" id="email" placeholder="Inserisci la tua email"
+                                class="email" required />
+                            <div class="contact-camps">
+                                <label for="reason" class="font">Motivo del contatto</label>
+                            </div>
+                            <select id="reason" name="reason" class="reason" required>
+                                <option value="" selected></option>
+                                <option value="PL">Proposta lavorativa</option>
+                                <option value="PC">Proposta di collaborazione</option>
+                                <option value="CA">Un bel caffè e due chiacchiere</option>
+                            </select>
+                            <div class="contact-camps">
+                                <label for="date" class="font">Data preferita per la risposta</label>
+                            </div>
+                            <input type="date" name="date" id="date" class="date" />
+                            <div class="contact-camps">
+                                <label for="message" class="font">Lascia scritto un messaggio se necessario</label>
+                            </div>
+                            <textarea name="message" id="message" placeholder="Scrivi qui il tuo messaggio"
+                                class="message"></textarea>
+                            <br />
+                            <input type="checkbox" id="accept" name="accept" class="accept" />
+
+                            <div class="contact-camps">
+                                <label for="accept">Accetto di essere ricontattato all'indirizzo indicato.</label>
+                            </div>
+                            <br /> <br />
+
+                            <button type="submit" id="sendForm" class="sendForm"><i class="fa-solid fa-upload"></i>
+                                Invia</button>
+                            <button type="reset" id="erase" class="erase"><i class="fa-solid fa-delete-left"></i>
+                                Cancella</button>
 
 
-                            </fieldset>
-                        </form>
-                        <a href="#inizio" class="link-in-fondo">Torna in cima</a>
+
+                            <br />
+                            <div class="link-su">
+                                <a href="#inizio">Torna in cima</a>
+                            </div>
                     </section>
                 </div>
             </div>
@@ -279,14 +311,17 @@
 
     <section class="botContacts">
         <p>©Alessandro Lainà - Costruito a mano durante la prima settimana del corso Epicode</p>
-                <nav class="botLinks">
-            <a href="javascript:void(0);">Informativa privacy</a>
-            <a href="javascript:void(0);">Informativa cookies</a>
-            <a class="github-link" href="https://github.com/Alw4ystired">Profilo GitHub troppo vuoto</a>
+        <nav class="botLinks">
+            <a class="github-link" href="https://github.com/Alw4ystired"><i class="fa-brands fa-github"></i></a>
+            <a class="github-link" href="javascript:void(0);"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="github-link" href="javascript:void(0);"><i class="fa-regular fa-envelope"></i></a>
+            <a class="github-link" href="javascript:void(0);"><i class="fa-solid fa-globe"></i></a>
+
         </nav>
-        <br />
-        <div class="link-in-fondo">
-        <a href="#inizio" >Torna in cima</a></div>
+        <br /> <br />
+        <div class="link-su">
+            <a href="#inizio">Torna in cima</a>
+        </div>
     </section>
 
     </aside>
