@@ -85,7 +85,7 @@
 
             <section class="competenze" id="competenze">
                 <h2>Competenze</h2>
-                <p>Le tecnologie che vedo durante le prime settimane del corso.</p>
+                <p>Le tecnologie che ho visto durante le prime settimane del corso. Le percentuali sono autovalutazioni, non certificazioni.</p>
                 <p class="stackTecnico">Stack tecnico: autovalutazione</p>
                 <table>
                     <thead>
@@ -231,40 +231,42 @@
                                 </legend>
                                 <br />
 
-                                <div>
+                                <div class="contact-camps">
                                     <label for="name">Nome</label>
                                 </div>
-                                <input type="text" name="name" id="name" placeholder="Inserisci il tuo nome" required />
-                                <div>
+                                <input type="text" name="name" id="name" placeholder="Inserisci il tuo nome" class="name" required />
+                                <div class="contact-camps">
                                     <label for="email">Email</label>
                                 </div>
                                 <input type="email" name="email" id="email" placeholder="Inserisci la tua email"
-                                    class="font" required />
-                                <div>
+                                    class="email" required />
+                                <div class="contact-camps">
                                     <label for="reason" class="font">Motivo del contatto</label>
                                 </div>
-                                <select id="reason" name="reason" required>
+                                <select id="reason" name="reason" class="reason" required>
                                     <option value="" selected></option>
                                     <option value="PL">Proposta lavorativa</option>
                                     <option value="PC">Proposta di collaborazione</option>
                                     <option value="CA">Un bel caffè e due chiacchiere</option>
                                 </select>
-                                <div>
+                                <div class="contact-camps">
                                     <label for="date" class="font">Data preferita per la risposta</label>
                                 </div>
-                                <input type="date" name="date" id="date" class="font" />
-                                <div>
+                                <input type="date" name="date" id="date" class="date" />
+                                <div class="contact-camps">
                                     <label for="message" class="font">Lascia scritto un messaggio se necessario</label>
                                 </div>
                                 <textarea name="message" id="message" placeholder="Scrivi qui il tuo messaggio"
-                                    class="font"></textarea>
+                                    class="message"></textarea>
                                 <br />
-                                <input type="checkbox" id="accept" name="accept" class="font" />
-                                <label for="accept">Accetto di essere ricontattato all'indirizzo indicato.</label>
+                                <input type="checkbox" id="accept" name="accept"/>
+                            
+                                <div class="contact-camps">
+                                <label for="accept">Accetto di essere ricontattato all'indirizzo indicato.</label></div>
                                 <br /> <br />
 
-                                <button type="submit" id="sendForm">Invia</button>
-                                <button type="reset" id="erase">Cancella</button>
+                                <button type="submit" id="sendForm" class="sendForm"><i class="fa-solid fa-upload"></i> Invia</button>
+                                <button type="reset" id="erase" class="erase"><i class="fa-solid fa-delete-left"></i> Cancella</button>
 
 
                             </fieldset>
@@ -276,9 +278,8 @@
     </footer>
 
     <section class="botContacts">
-        <p>©Alessandro Lainà, tutti i diritti riservati (forse)</p>
-        <i>Azienda XYZ - Via Italia 15 - 57023 Cecina (LI)</i>
-        <nav class="botLinks">
+        <p>©Alessandro Lainà - Costruito a mano durante la prima settimana del corso Epicode</p>
+                <nav class="botLinks">
             <a href="javascript:void(0);">Informativa privacy</a>
             <a href="javascript:void(0);">Informativa cookies</a>
             <a class="github-link" href="https://github.com/Alw4ystired">Profilo GitHub troppo vuoto</a>

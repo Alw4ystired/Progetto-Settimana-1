@@ -122,7 +122,7 @@ h2 {
 .rectangle2 .per-favore-funziona section {
     border: 1px solid #e6e0d3;
     border-radius: 20px;
-    background-color:white;
+    background-color: white;
     padding: 25px;
     margin-top: 20px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
@@ -163,58 +163,58 @@ h2 {
 }
 
 .stackTecnico {
-  margin: 1rem 0 0.6rem;
-  font-style: italic;
-  color: #8492ad;
+    margin: 1rem 0 0.6rem;
+    font-style: italic;
+    color: #8492ad;
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
 }
 
 th {
-  padding: 10px 12px;
-  color: hsl(220, 60%, 25%);
-  background: #f9f5ea;
+    padding: 10px 12px;
+    color: hsl(220, 60%, 25%);
+    background: #f9f5ea;
 }
 
 td {
-  padding: 12px;
-  border-bottom: 1px solid #ece6d8;
-  vertical-align: middle;
+    padding: 12px;
+    border-bottom: 1px solid #ece6d8;
+    vertical-align: middle;
 }
 
 .pezziSopra {
-  width: 50%;
+    width: 50%;
 }
 
 .pezziSopra small {
-  display: block;
-  font-size: 0.8rem;
-  font-style: italic;
-  color: #8492ad;
+    display: block;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #8492ad;
 }
 
 .barra {
-  height: 8px;
-  background: #ece6d8;
-  border-radius: 99px;
-  overflow: hidden;
+    height: 8px;
+    background: #ece6d8;
+    border-radius: 99px;
+    overflow: hidden;
 }
 
 .barra span {
-  display: block;
-  height: 100%;
-  background: #f2b90d;
-  border-radius: 99px;
+    display: block;
+    height: 100%;
+    background: #f2b90d;
+    border-radius: 99px;
 }
 
 .rectangleProgetti {
     border: 1px solid #e6e0d3;
     border-radius: 20px;
-    background-color:rgb(255, 252, 234);
+    background-color: rgb(255, 252, 234);
     padding: 15px;
     margin: 10px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
@@ -222,9 +222,9 @@ td {
 
 .rectangle-progetti-vuoto {
     border: 1px solid #e6e0d3;
-    box-shadow: 0px 0px 0px 5px; 
+    box-shadow: 0px 0px 0px 5px;
     border-radius: 20px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
     margin: 10px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
@@ -237,13 +237,114 @@ h3 {
 .rectangle-progetti-vuoto p {
     margin-top: 0;
 }
+
 .link.in.fondo {
     text-align: right;
-    color: hsl(220, 60%, 30%); 
-    border:  hsl(45, 90%, 50%);
+    color: hsl(220, 60%, 30%);
+    border: hsl(45, 90%, 50%);
 }
 
 .link-in-fondo:hover {
-color: hsl(220, 60%, 45%);
+    color: hsl(220, 60%, 45%);
 }
+
 /*Footer*/
+
+.botContacts {
+    text-align: center;
+    color: white;
+    background-color: #172136;
+}
+
+.sendForm {
+    width: 5em;
+    height: 2.5em;
+    background-color: hsl(220, 60%, 30%);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sendForm:hover {
+   background-color: hsl(220, 60%, 45%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+.erase {
+    width: 7em;
+    height: 2.5em;
+    background-color: hsl(220, 60%, 30%);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.erase:hover {
+   background-color: hsl(220, 60%, 45%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+.contact-camps {
+    color: hsl(220, 60%, 25%);
+    font-style: bold;
+    margin: 3px;
+}
+
+#accept {
+    display:inline-block;
+}
+
+.name, .email, .reason, .date, .message {
+    width: 100%;
+    border: 1px solid #d6cfbf;
+    background-color: #fbf8f1;
+    box-sizing: border-box;
+}
+
+.name:hover {
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+
+}
+
+.email:hover {
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+
+}
+
+.reason:hover {
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+
+}
+
+.date:hover {
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+
+}
+
+.message:hover {
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+    width: 100%;
+    border: 1px solid hsl(220, 60%, 30%);
+    background-color: white;
+
+}
