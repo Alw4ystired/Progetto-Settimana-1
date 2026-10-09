@@ -107,7 +107,10 @@ h1 {
     margin-right: 10px;
 }
 
-
+h2::before {
+    content: '\2756';
+    color: hsl(45, 90%, 50%)
+}
 
 /*Main*/
 
@@ -131,7 +134,7 @@ h2 {
     border-radius: 20px;
     background-color: white;
     padding: 25px;
-    margin-top: -5px;
+    margin-top: -15px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 
 }
@@ -154,7 +157,7 @@ h2 {
 .imageContaineralso p::first-letter {
     font-size: 2em;
     font-weight: bold;
-    font-style: italic;
+    font-style: none;
     color: #1F3D7A;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -211,10 +214,36 @@ td {
 .rectangleProgetti {
     border: 1px solid #e6e0d3;
     border-radius: 20px;
-    background-color:rgb(252, 244, 200);
+    background-color:rgb(255, 252, 234);
     padding: 15px;
     margin: 10px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
+.rectangle-progetti-vuoto {
+    border: 1px solid #e6e0d3;
+    box-shadow: 0px 0px 0px 5px; 
+    border-radius: 20px;
+    background-color:rgb(255, 255, 255);
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.rectangle-progetti-vuoto p {
+    margin-top: 0;
+}
+.link.in.fondo {
+    text-align: right;
+    color: hsl(220, 60%, 30%); 
+    border:  hsl(45, 90%, 50%);
+}
+
+.link-in-fondo:hover {
+color: hsl(220, 60%, 45%);
+}
 /*Footer*/
