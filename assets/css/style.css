@@ -48,9 +48,8 @@ h3 {
 /*Header*/
 
 header {
-    border: 5px;
-    border-color: hsl(45, 90%, 60%);
-}
+    border-bottom: solid 5px hsl(45, 90%, 60%);;
+   }
 
 h1 {
     display: inline-block;
@@ -253,12 +252,6 @@ h3 {
 
 /*Footer*/
 
-.botContacts {
-    text-align: center;
-    color: white;
-    background-color: #172136;
-}
-
 .sendForm {
     width: 5em;
     height: 2.5em;
@@ -356,14 +349,57 @@ h3 {
 
 }
 
-.github-link {
+.github-link a {
     color: rgba(255, 255, 255, 0.08);
+     list-style-type: none;
+     background-color: ;
 }
 
-.github-link:hover {
+.github-link a:hover{
     color: hsl(220, 60%, 20%);
+    background-color: ;
 }
 
 .link-su {
     font-size: small;
+}
+
+.botLinks a {
+    color: hsl(0, 0%, 100%);
+    list-style-type: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.botLinks a:hover {
+   color: hsl(220, 60%, 20%);
+    background-color: ;
+    border: 1px solid hsl(45, 90%, 60%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.botLinks ul {
+    width: 50%;
+    display: inline-block;
+}
+
+.botLinks ul li {
+    list-style-type: none;
+    display: inline;
+    align-items: center;
+}
+
+.botLinks ul li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.botContacts {
+    text-align: center;
+    background-color: #172136;
+}
+
+.botContacts p {
+    color: white;
 }
