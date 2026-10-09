@@ -13,6 +13,7 @@
 html {
     margin: 0;
     padding: 0;
+    background-color: rgb(170, 170, 170);
 }
 
 body,
@@ -30,6 +31,7 @@ body {
 main {
     max-width: 920px;
     margin: 0 auto;
+
 }
 
 footer {
@@ -44,8 +46,15 @@ h3 {
 }
 
 .materialIcons {
-font-family: 'Material Symbols Outlined';}
+    font-family: 'Material Symbols Outlined';
+}
+
 /*Header*/
+
+header {
+    border: 5px;
+    border-color: hsl(45, 90%, 60%);
+}
 
 h1 {
     display: inline-block;
@@ -63,14 +72,15 @@ h1 {
     background-image: url('../img/header-bg.jpg');
     background-size: cover;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    border: hsl(45, 90%, 60%);
 }
 
 .topLinks a {
     color: hsl(0, 0%, 100%);
     list-style-type: none;
     border: 1px solid hsl(0, 0%, 100%);
-        border-radius: 10px;
-        padding: 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .topLinks a:hover {
@@ -83,18 +93,18 @@ h1 {
 
 .topLinks ul {
     width: 50%;
-	display: inline-block;
+    display: inline-block;
 }
 
 .topLinks ul li {
-	/*list-style-type: none;*/
-	display: inline;
+    /*list-style-type: none;*/
+    display: inline;
     align-items: center;
 
 }
 
 .topLinks ul li:not(:last-child) {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
 
@@ -104,23 +114,64 @@ h1 {
 
 .rectangle1,
 .rectangle2 .per-favore-funziona section {
-    border: 1px solid transparent;
+    border: 1px solid #e6e0d3;
     border-radius: 20px;
-    background-color: rgba(241, 239, 239, 1);
+    background-color: rgb(223, 223, 223);
     padding: 25px;
     margin-top: 20px;
-    box-shadow: 0px 3px 10px rgb(0 0 0);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 .rectangleOver .rectangle1 {
-    
-    border: 1px solid transparent;
+
+    border: 1px solid #e6e0d3;
     border-radius: 20px;
-    background-color: rgba(241, 239, 239, 1);
+    background-color: rgb(223, 223, 223);
     padding: 25px;
-    margin-top: -5px
-    
+    margin-top: -5px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+
 }
 
+.imageContainer {
+
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+
+.imageContainer img {
+    border: 1px solid hsl(45, 90%, 60%);
+    border-radius: 50%;
+
+
+}
+
+.imageContaineralso p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    color: #1F3D7A;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table tbody td .pezziSopra {
+    font-style: bold;
+    color: hsl(220, 60%, 30%)
+}
+
+table tbody td .pezziSotto {
+    font-style: italic;
+    color: hsl(220, 60%, 30%)
+}
+
+table {
+    border: 1px solid #ece6d8;
+}
+
+.tabellaCentrata {
+    align-items: center;
+}
 
 /*Footer*/
