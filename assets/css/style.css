@@ -349,16 +349,6 @@ h3 {
 
 }
 
-.github-link a {
-    color: rgba(255, 255, 255, 0.08);
-     list-style-type: none;
-     background-color: ;
-}
-
-.github-link a:hover{
-    color: hsl(220, 60%, 20%);
-    background-color: ;
-}
 
 .link-su {
     font-size: small;
@@ -368,15 +358,15 @@ h3 {
     color: hsl(0, 0%, 100%);
     list-style-type: none;
     border: 1px solid transparent;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 10px;
 }
 
 .botLinks a:hover {
    color: hsl(220, 60%, 20%);
-    background-color: ;
-    border: 1px solid hsl(45, 90%, 60%);
-    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: hsl(45, 90%, 60%);
+    border-radius: 30px;
     padding: 10px;
 }
 
