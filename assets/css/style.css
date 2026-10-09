@@ -111,6 +111,9 @@ h1 {
 
 /*Main*/
 
+h2 {
+    color: hsl(220, 60%, 25%);
+}
 
 .rectangle1,
 .rectangle2 .per-favore-funziona section {
@@ -126,7 +129,7 @@ h1 {
 
     border: 1px solid #e6e0d3;
     border-radius: 20px;
-    background-color: white:
+    background-color: white;
     padding: 25px;
     margin-top: -5px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
@@ -203,6 +206,15 @@ td {
   height: 100%;
   background: #f2b90d;
   border-radius: 99px;
+}
+
+.rectangleProgetti {
+    border: 1px solid #e6e0d3;
+    border-radius: 20px;
+    background-color:rgb(252, 244, 200);
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 /*Footer*/
